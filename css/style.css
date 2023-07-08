@@ -1,0 +1,58 @@
+/* Shared Common Styles */
+ 
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+.primary-btn{
+    background-color: #FD6E0A;
+}
+
+/* Navigation Bar Styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF8F3;
+}
+
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    margin-left: 225px;
+    margin-top: 50px;
+}
+
+nav  > ul {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 230px;
+}
+
+nav li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li a {
+    text-decoration: none;
+
+    margin-right: 35px;
+    color:   #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+nav button {
+    color: white;
+    padding: 18px 35px;
+    border-radius: 10px;
+    border: none;
+}
